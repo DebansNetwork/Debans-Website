@@ -21,9 +21,9 @@
 
 module.exports = {
 
-  db: process.env.MONGODB || 'mongodb://localhost:27017/test',
+  db: process.env.MONGODB || 'mongodb://localhost:27017/debansnettest',
 
-  sessionSecret: process.env.SESSION_SECRET || 'Your Session Secret goes here',
+  sessionSecret: process.env.SESSION_SECRET || 'sq1d2qsd665zkekke2585prorjf4f44dhghze44d45d',
 
   mailgun: {
     user: process.env.MAILGUN_USER || 'postmaster@sandbox697fcddc09814c6b83718b9fd5d4e5dc.mailgun.org',
@@ -64,15 +64,15 @@ module.exports = {
   },
 
   github: {
-    clientID: process.env.GITHUB_ID || 'cb448b1d4f0c743a1e36',
-    clientSecret: process.env.GITHUB_SECRET || '815aa4606f476444691c5f1c16b9c70da6714dc6',
+    clientID: process.env.GITHUB_ID || '3c674ffb7fdc7ab5aaeb',
+    clientSecret: process.env.GITHUB_SECRET || '2219f22c3be04cc9adfc0453536f6ce71473bec2',
     callbackURL: '/auth/github/callback',
     passReqToCallback: true
   },
 
   twitter: {
-    consumerKey: process.env.TWITTER_KEY || '6NNBDyJ2TavL407A3lWxPFKBI',
-    consumerSecret: process.env.TWITTER_SECRET  || 'ZHaYyK3DQCqv49Z9ofsYdqiUgeoICyh6uoBgFfu7OeYC7wTQKa',
+    consumerKey: process.env.TWITTER_KEY || 'SICpgaKgIoB7aGvLwCc9qUCOM',
+    consumerSecret: process.env.TWITTER_SECRET  || 'YtwzmyGHrnijzwUekbiDCRinSKXex2BAnfBqwBs26BzTuuJO28',
     callbackURL: '/auth/twitter/callback',
     passReqToCallback: true
   },
